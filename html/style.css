@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero-section{
+    background-image: url(hotel.jpg);
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.hero-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.book-button,
+.learn-button{
+    color: black;
+    font-size: 15px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.about-us{
+    margin-left: 10px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    
+}
+.amenities{
+    text-align: center;
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+}
