@@ -1,0 +1,57 @@
+body{
+    display: grid;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+background-attachment: fixed;
+justify-content: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    margin-left:25% ;
+    color: #C850C0;
+    margin-bottom: 40px;
+}
+form{
+    margin-top: 20vh;
+    background-color: white;
+    width:350px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.input-group{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 2px 5px;
+    font-size: medium;
+    height: 30px;
+    border: #8094cb solid 2px;
+}
+.input-group .error{
+    margin-bottom: 5px;
+    color: red;
+}
+button{
+    margin-top: 10px;
+    padding:10px;
+    width: 100%;
+    background-color: #C850C0;
+    border: none;
+    cursor: pointer;
+}
+label{
+    margin-bottom: 5px;
+    font-size: large;
+}
+.input-group.error input{
+    border-color: rgba(255, 0, 0, 0.389);
+}
+.input-group.success input{
+    border-color: rgba(39, 183, 39, 0.56);
+}
+input:focus{
+    outline: none;
+}
